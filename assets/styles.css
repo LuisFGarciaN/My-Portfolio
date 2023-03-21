@@ -1,0 +1,161 @@
+/* Set a background image for the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #588f75;
+  padding: 10px;
+  position: relative;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+ }
+ 
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+.content {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.home-i img {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  width: 20vw;
+  height: 40vh;
+  object-fit: cover;
+  object-position: 100% 100% 100%;
+  border-radius: 25px;
+  box-shadow: 5px 1px rgb(71, 71, 71, 0.52);
+  transform: translate(-50%, -50%);
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  color: white;
+}
+
+
+.content p {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+main h2 {
+  text-align: center;
+}
+nav.nav {
+  display: flex;
+  align-items: center;
+}
+
+nav.nav a {
+  text-decoration: none
+}
+
+nav.nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav.nav ul li {
+  margin-right: 20px;
+}
+
+.fa {
+  color: white;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #588f75;
+  color: white;
+  padding :0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+footer ul {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin: 0 10px;
+}
+
+footer p {
+  font-size: 12px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.bio-box{
+  position: absolute;
+  top: 24%;
+  left: 100px;
+  text-align: center;
+  width: 80%;
+  font-size:1.5vw ;
+}
+
+.pro-box {
+  position: absolute;
+  top: 24%;
+  left: 100px;
+  text-align: center;
+  width: 80%;
+  font-size:1.2vw ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pro-box h2 {
+  text-align: center;
+}
+
+.pro-box ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 15px; 
+}
+
+
+.pro-box ul li {
+  padding-left: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
